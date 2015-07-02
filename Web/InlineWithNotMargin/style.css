@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+     position: relative;
+}
+
+.inline {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.inline--correct {
+    margin-right: -4px;
+}
+
+.inline--correct-vertical {
+    vertical-align: top;
+}
+
+.inline--blue {
+    background-color: aqua;
+}
+
+.inline--green {
+    background-color: limegreen;
+}
+
+.inline--red {
+    background-color: maroon;
+}

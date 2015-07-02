@@ -1,0 +1,69 @@
+<!--
+n.dessert
+7/1/2015
+Comments:
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper" >
+        <p>Having white space after inline block elements causes there to be a space after the element. Additionally, there is also a problem with some space being added under the element. This is because caused by the vertical alignment.</p>
+        <div class="inline inline--blue"></div>
+        <div class="inline inline--blue"></div>
+        <div class="inline inline--blue"></div>
+        <div class="inline inline--blue"></div>
+        <div class="inline inline--blue"></div>
+        <div class="inline inline--blue"></div>
+        <div class="inline inline--blue"></div>
+        <div class="inline inline--blue"></div>
+    </div>
+
+    <div class="wrapper" >
+        <p>One way to have the elments line up next to each other is to remove the whitespace.</p>
+        <div class="inline inline--green"></div><div class="inline inline--green"></div><div class="inline inline--green"></div><div class="inline inline--green"></div><div class="inline inline--green"></div><div class="inline inline--green"></div><div class="inline inline--green"></div><div class="inline inline--green"></div>
+    </div>
+
+    <div class="wrapper" >
+        <p>Another way is to add comments</p>
+        <div class="inline inline--red"></div><!--
+        --><div class="inline inline--red"></div><!--
+        --><div class="inline inline--red"></div><!--
+        --><div class="inline inline--red"></div><!--
+        --><div class="inline inline--red"></div><!--
+        --><div class="inline inline--red"></div><!--
+        --><div class="inline inline--red"></div><!--
+        --><div class="inline inline--red"></div>
+    </div>
+
+    <div class="wrapper" >
+        <p>The best way is to probably just add -4 pixels to the right margin.</p>
+        <div class="inline inline--blue inline--correct"></div>
+        <div class="inline inline--blue inline--correct"></div>
+        <div class="inline inline--blue inline--correct"></div>
+        <div class="inline inline--blue inline--correct"></div>
+        <div class="inline inline--blue inline--correct"></div>
+        <div class="inline inline--blue inline--correct"></div>
+        <div class="inline inline--blue inline--correct"></div>
+        <div class="inline inline--blue inline--correct"></div>
+    </div>
+
+    <div class="wrapper" >
+        <p>And you can get rid of the bottom spacing by specifying setting vertical-align to top.</p>
+        <div class="inline inline--green inline--correct inline--correct-vertical"></div>
+        <div class="inline inline--green inline--correct inline--correct-vertical"></div>
+        <div class="inline inline--green inline--correct inline--correct-vertical"></div>
+        <div class="inline inline--green inline--correct inline--correct-vertical"></div>
+        <div class="inline inline--green inline--correct inline--correct-vertical"></div>
+        <div class="inline inline--green inline--correct inline--correct-vertical"></div>
+        <div class="inline inline--green inline--correct inline--correct-vertical"></div>
+        <div class="inline inline--green inline--correct inline--correct-vertical"></div>
+    </div>
+</body>
+</html>
